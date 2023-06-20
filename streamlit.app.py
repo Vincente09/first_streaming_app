@@ -46,7 +46,7 @@ my_data_rows = my_cur.fetchall()
 streamlit.header("The fruit load list contains:")
 streamlit.dataframe(my_data_rows)
 
-
+world_list []
 new_word = streamlit.text_input('What fruit would you like to add?')
 streamlit.button('add word')
 world_list.append(new_word)
