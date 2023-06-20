@@ -63,6 +63,6 @@ if streamlit.button ('Get Fruit Load List'):
    back_from_function = insert_row_snowflake(add_my_fruit)
    streamlit.text(back_from_function)
 
-my_cur.execute("INSERT INTO FRUIT_LOAD_LIST VALUES ('from streamlit')")
+
 
 #from urllib.error import URL error
