@@ -32,7 +32,7 @@ streamlit.header("Fruityvice Fruit Advice!")
 try:
   fruit_choice = streamlit.text_input('What fruit would you like information about?')
   if not fruit_choice:
-  streamlit.error("Please select a fruit to get information.")
+    streamlit.error("Please select a fruit to get information.")
 else
 #streamlit.write('The user entered ', fruit_choice)
 #import requests
@@ -42,7 +42,7 @@ else
 # write your own comment - what does this do?
   streamlit.dataframe(fruityvice_normalized)           
 except URLError as e:
-    streamlit.error()
+  streamlit.error()
 
 streamlit.stop()
 
