@@ -48,4 +48,6 @@ streamlit.dataframe(my_data_rows)
 
 
 streamlit.text_input('What fruit would you like to add?')
+streamlit.write('Thanks for adding,Jackfruit')
+
 
